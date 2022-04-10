@@ -17,3 +17,5 @@ print(f'The difference in memory between tuple and list is {sys.getsizeof(list)-
 
 end = time.time()
 print(f'Runtime is {end-start} sec')
+if __name__ == '__main__':
+    main()
